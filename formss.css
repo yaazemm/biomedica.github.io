@@ -1,0 +1,169 @@
+.formss{
+    background: rgb(14, 14, 15);
+    background:  rgb(18, 170, 36) ;
+ 
+    padding: 2%;
+    font-size: 1rem;
+}
+
+
+
+.formss-mess {
+    position: absolute;
+    z-index: -1;
+    display: none;
+}
+
+
+
+.formss__q {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: .5rem;
+    text-align: center;
+    color: #025e45;
+}
+
+
+
+.formss__detail {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #005d1c;
+}
+
+
+
+.formss{
+    width:95%;
+    margin: 2rem auto;
+    background:  rgb(96, 122, 178) ;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #a15da9;
+    padding: 10px 20px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    position:relative
+}
+
+
+
+.formss label {
+    background: rgb(96, 122, 178) ;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display:block;
+    margin:28px 0 0;
+    color:#00530f;
+}
+
+.formss input, textarea {
+    background:  rgb(10, 219, 90);
+    width:100%;
+    padding:5px;
+    box-sizing:border-box;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family: 'Kanit', sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #170b18;
+    font-size: 1rem;
+}
+
+
+.formss-imput{
+    font-family: 'Open Sans', sans-serif;
+    color:#000000;
+}
+
+
+.formss .formss-submit {
+    float:right;
+    padding:6px 15px;
+    margin:8px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    border:2px solid #000000;
+    border-radius: 5px;
+    color:#04ff00;
+    cursor:pointer;
+    transition:all .3s;
+    background-color: #060606;
+}
+
+
+
+.formss-submit:hover {
+    background-color: #000000;
+}
+
+
+
+.formss p {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.formss-input {
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.formss div{
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#29162e;
+    color:#013021;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size: 0.75rem;
+    box-shadow:10px 10px 40px -14px #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.formss span{
+    margin:1px 5px 1px 15px;
+}
+
+
+
+
+@media screen and (min-width: 860px) {
+    .form-submit:hover{
+        background:#d4e32c;
+        color:#fff;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .form {
+        max-width: 1500px;
+    }
+
+    .formss div {
+        font-size: 1rem;
+        width:60%;
+    }
+
+    .formuss-mess {
+        display: flex;
+        width:15%;
+        justify-content: center;
+    }
+}

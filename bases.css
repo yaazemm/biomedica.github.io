@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(13, 0, 255);
+}
+
+
+body {
+    font-family: 'Monospace', cursive;
+    font-family: 'Monaco', Monospace;
+    
+    background: rgb(255, 225, 0);
+    background: linear-gradient(180deg, rgb(0, 34, 255) 25%, rgb(0, 255, 251) 70%, rgb(0, 255, 21) 100%);
+ 
+    color: #00ffdd;
+}
+
+
+strong {
+    font-weight: bolder;
+}

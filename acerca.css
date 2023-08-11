@@ -1,0 +1,33 @@
+.acerca {
+    background: rgb(3, 83, 32);
+    display: flex;
+    justify-content: center;
+}
+
+.acerca__titulo {
+    padding-top: 1rem;
+    color: #46ff03;
+}
+#Idacerca{
+    display: flex;
+  align-items: center;
+  
+
+}
+
+
+@media screen and (min-width: 100px) {
+
+    .acerca img {
+        width: 150%;
+        align-items: center;
+    }
+}
+#carouselExampleCaptions{
+    width: 1000px
+    
+}
+.acerca{
+    width: 100%;
+    font-weight: 100px
+}
